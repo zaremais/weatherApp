@@ -1,19 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_42/screens/weather_search_screen.dart';
+import 'internal/application.dart';
 
 void main() {
   runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: WeatherSearchScreen(),
-      theme: ThemeData(scaffoldBackgroundColor: const Color(0xff3fa2fa)),
-    );
-  }
 }

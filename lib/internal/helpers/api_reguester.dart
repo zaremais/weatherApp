@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_42/helpers/error_helpers.dart';
+import 'package:flutter_application_42/internal/helpers/error_helpers.dart';
 
 class APIRequester {
   APIRequester({

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../helpers/format_helpers.dart';
-import '../models/weather_model.dart';
+import '../../../../internal/helpers/format_helpers.dart';
+import '../../data/models/weather_model.dart';
 
 class WeatherInfoScreen extends StatefulWidget {
   final WeatherModel? weatherModel;

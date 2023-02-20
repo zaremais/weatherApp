@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_42/cubit/weather_cubit.dart';
-import 'package:flutter_application_42/helpers/error_helpers.dart';
-import 'package:flutter_application_42/screens/weather_info_screen.dart';
+import 'package:flutter_application_42/features/weather/presentation/screens/weather_info_screen.dart';
+import 'package:flutter_application_42/internal/helpers/error_helpers.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+
+import '../logic/weather_cubit/weather_cubit.dart';
 
 class WeatherSearchScreen extends StatelessWidget {
   final TextEditingController controller = TextEditingController();
